@@ -1,24 +1,16 @@
-export { TmoTabs, TabContainer } from './components/TmoTabs';
-export type { TmoTabsProps, TmoTabItem } from './components/TmoTabs';
-
-export { Tabs, Tab, useTabsContext } from './components/Tabs';
-export type { TabsProps, TabProps } from './components/Tabs';
-export { TabsContainer, TabList, TabButton, TabIconWrapper } from './components/Tabs';
-
-// CardAccordion
 export {
   CardAccordion,
   CardAccordionItem,
   CardAccordionMetricRow,
   CardAccordionMetricList,
-} from './components/CardAccordion';
+} from './CardAccordion';
 export type {
   CardAccordionProps,
   CardAccordionItemProps,
   CardAccordionMetricRowProps,
   CardAccordionMetricItem,
   CardAccordionMetricListProps,
-} from './components/CardAccordion';
+} from './CardAccordion.types';
 export {
   CardAccordionWrapper,
   CardAccordionItemCard,
@@ -31,4 +23,4 @@ export {
   MetricRowLabel,
   MetricRowValue,
   MetricRowTrend,
-} from './components/CardAccordion';
+} from './CardAccordion.styles';
